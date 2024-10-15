@@ -287,39 +287,238 @@
     height: 85px;
 }
 
-.container{
-    /* border: 1px solid black !important; */
-    margin-top: 40px !important;
-    display: flex; 
+.container3{
+    border: 1px solid #4cb5ab ;
+    /* margin-top: 40px; */
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+    height: 50px;
+    display: flex;
     justify-content: center;
+    border-radius: 30px;
 }
-
-.btn2{
-    border: 1px solid #4cb5ab;
-    border-radius: 40px;
-    width: 240px;
-    height: 40px;
-    background-color:#00000000;
-    color: #4cb5ab;
-    font-size: 14px;
-    padding-top: 13px;
-    padding-left: 40px;
-    margin-bottom: 30px;
+.container3 a{
+    padding-top: 15px;
+   text-decoration: none;
+   color: #4cb5ab;
+   border-radius: 30px;
+   width: 300px;
 }
-.btn2 :hover{
+.container3 a:hover{
     background-color: #4cb5ab;
     color: white;
 }
 /* future section ended here */
 
+ 
 
 
 
 
 /* all product section started here  */
-.title h2{
+.title2 h2{
     color: #00376e;
     font-size: 30px;
     font-size: 'Noto Sans', sans-serif;
     text-align: start;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+.products{
+    max-width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.product{
+    /* border: 1px solid red; */
+    width: 33.33%;
+    padding: 5px;
+}
+.product2{
+    /* border: 1px solid rgb(98, 182, 20); */
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.box1{
+    background-image: url(images/barista.jpg);
+    width: 95%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.box2 a{
+    /* border: 1px solid red; */
+    color: #00376e;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.box3 span{
+    /* border: 1px solid red; */
+    color: #00376e;
+    font-size: 18px;
+}
+.span{
+    color: #00376e;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+.box4{
+    background-image: url(images/moka.jpg);
+    width: 95%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.box5{
+    background-image: url(images/moroccan.jpg);
+    width: 95%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.box6{
+    background-image: url(images/sermon.jpg);
+    width: 95%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.box7{
+    background-image: url(images/tea.jpg);
+    width: 95%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.box8{
+    background-image: url(images/yabitu.jpg);
+    width: 95%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.smallline{
+    margin: auto;
+    border: 1px solid #4cb5ab;
+    width: 50px;
+    height: 2px;
+}
+/* all product section ended here  */
+
+
+
+
+/* section4 started here  */
+.container4{
+    /* border: 1px solid red; */
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 80px;
+}
+.bigbox1{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 500px;
+}
+.smallbox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 100%
+}
+.smallbox1 h2{
+    color: #00376e;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.smallbox1 p{
+    color: #5981a9;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.8;
+}
+.smallbox1 h5{
+    color: #00376e;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;;
+    margin-bottom: 20px;
+}
+.smallbox1 a{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #4cb5ab;
+    border-radius: 30px;
+    background-color: #4cb5ab;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.smallbox1 a:hover{
+    background-color: #3a948b;
+    color: white;
+}
+
+.bigbox2{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.smallbox2{
+    padding: 35px;
+    /* border: 1px solid black; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 30px;
+}
+.smlbox1{
+    /* border: 1px solid red; */
+    display: flex;
+}
+.coffeimg img{
+    padding: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.aboutcoffe h3{
+    color: #00376e;
+    font-size: 24px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 16px;
+    padding-top: 10px;
+}
+.aboutcoffe p{
+    color: #5981a9;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.8;
+}
+/* section4 ended here  */
+
+
+
+
+
+/* best sallers section start here  */
+.bestsallers{
+    display: flex;
+    /* margin-bottom: 50px; */
 }
