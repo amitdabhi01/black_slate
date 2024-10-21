@@ -115,6 +115,8 @@
 
 
 
+
+/*<------------------------shop coffee section end -----------------------> */
 .sort-by{
     border: 1px solid black;
     padding: 20px;
@@ -122,6 +124,28 @@
     margin-left: auto;
     align-items: center;
 }
+.sort-by p{
+    color: #5981a9;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+select{
+    margin-left: 10px;
+    padding: 0px 18px 0px 10px;
+    font-size: 15px;
+    width: 162px;
+    height: 39px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    color: #00376e;
+}
+/*<------------------------shop coffee section end -----------------------> */
+
+
+
+
+
 /*<----------------------- all product section start -----------------------> */
 .title2 h2 {
     color: #00376e;
