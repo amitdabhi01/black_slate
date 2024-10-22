@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* <----------------------- navber start -----------------------> */
+.header {
+    max-width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.container {
+    max-width: 1320px;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 10px;
+}
+
+.navbar {
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo>div>h1 {
+    /*border: 1px solid black;*/
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    color: #00376e;
+    padding: 10px;
+}
+
+.nav {
+    padding: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+
+.nav a {
+    padding: 5px 20px;
+    font-size: 17px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    color: #00376e;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #4cb5ab;
+    color: white;
+    border-radius: 5px;
+}
+
+.nav a:first-child {
+    background-color: #4cb5ab;
+    color: white;
+    border-radius: 5px;
+}
+/* <----------------------- navber end -----------------------> */
+
+
+
+
+
+/* <----------------------- Contact start -----------------------> */
+.contact{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
+    padding: 0px 15px;
+}
+.contact h2{
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    color: #00376e;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.contact p{
+    color: #5981a9;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.bigbox{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
+    padding: 0px 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.box{
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+    width: 33.33%;
+    line-height: 1.8;
+}
+.bigbox p{
+    color: #5981a9;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+}
+/* <----------------------- Contact end -----------------------> */
+
+
+
+
+/* <----------------------- footer start -----------------------> */
+.container0 {
+    max-width: 100%;
+    background-color: #00376e;
+    padding: 20px;
+}
+
+.maintable {
+    max-width: 1320px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 100px;
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.smalltable {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.562);
+    width: 25%;
+    /* padding: 20px; */
+}
+
+.table {
+    margin-bottom: 30px;
+    /* border: 1px solid pink; */
+    padding: 0px 15px;
+    line-height: 1.8;
+}
+
+.table>p>a {
+    text-decoration: none;
+    color: #4cb5ab;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+}
+.bigline{
+    border:  1px solid black;
+    padding: 20px;
+    width: 1320px;
+}
+
+.copyright{
+    width:100%
+}
+.copyright p{
+    color: #5981a9;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    padding: 20px;
+}
+/* <----------------------- footer end -----------------------> */
