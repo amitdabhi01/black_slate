@@ -67,46 +67,29 @@
 
 
 
-/* <----------------------- Contact start -----------------------> */
-.contact{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
+/* <----------------------- Terms and conditions start -----------------------> */
+.terms{
+    /* border: 1px solid black; */
     padding: 0px 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
-.contact h2{
-    font-size: 30px;
+.terms h3{
+    color: #00376e;
+    font-size: 24px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: normal;
-    color: #00376e;
-    margin-bottom: 30px;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.contact p{
+.terms p{
     color: #5981a9;
     font-size: 14px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: normal;
-    margin-bottom: 30px;
-}
-.bigbox{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
-    padding: 0px 15px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    display: flex;
-}
-.box{
-    /* border: 1px solid red; */
-    margin-bottom: 30px;
-    width: 33.33%;
     line-height: 1.8;
 }
-.bigbox p{
-    color: #5981a9;
-    font-size: 14px;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: normal;
-}
-/* <----------------------- Contact end -----------------------> */
+/* <----------------------- Terms and conditions end -----------------------> */
 
 
 
