@@ -66,7 +66,7 @@
 
 
 
-/*<------------------------shop coffee section start -----------------------> */
+/*<------------------------shop tea section start -----------------------> */
 .mt60{
     margin-top: 60px;
 }
@@ -113,17 +113,17 @@
 .smallbox2 img{
     width: 100%;
 }
-/*<------------------------shop coffee section end -----------------------> */
+/*<------------------------shop tea section end -----------------------> */
 
 
 
 
 
-/*<------------------------sort by section start -----------------------> */
+/*<------------------------shop tea section end -----------------------> */
 .sort-by{
-    width: 25%;
     /* border: 1px solid black; */
     padding: 20px;
+    width: 25%;
     display: flex;
     margin-left: auto;
     align-items: center;
@@ -138,7 +138,7 @@ select{
     margin-left: 10px;
     padding: 0px 18px 0px 10px;
     font-size: 15px;
-    width: 162px;
+    /* width: 162px; */
     height: 39px;
     border: 1px solid #ccc;
     font-family: inherit;
@@ -155,7 +155,7 @@ select{
 .gray{
     color: gray;
 }
-/*<------------------------sort by section end -----------------------> */
+/*<------------------------shop tes section end -----------------------> */
 
 
 
