@@ -68,6 +68,8 @@
     margin: auto;
     padding: 10px;
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .mainbox1{
@@ -106,9 +108,8 @@
     width: fit-content;
 }
 
-
 .mainbox2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 45%;
     background-color: #62beb5;
     padding: 30px 0px 0px 0px;
@@ -160,7 +161,7 @@
     background-color: transparent;
     border: 1px solid white;
     color: white;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 .brista-blend2 p{
     font-size: 14px;
@@ -168,15 +169,52 @@
     font-family: 'Noto Sans', sans-serif;
     font-weight: normal;
 }
+.icon{
+    /* border: 1px solid black; */
+    display: flex;
+    font-size: 25px;
+    gap: 15px;
+}
+input{
+    height: 40px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.918);
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.ri-facebook-fill{
+    color: #00376e;
+}
+.ri-pinterest-fill{
+    color: rgb(175, 6, 6);
+}
 
 .mainbox3{
     border: 1px solid red;
     width: 25%;
+    background-color: #00376ee1;
+    padding: 26px 0px;
 }
-.icon{
+.price{
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.596);
+    padding: 0px 28px 30px;
+}
+.price h1{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+}
+.choose-qual{
+    padding: 30px 28px 0px;
     border: 1px solid black;
-    display: flex;
-    font-size: 25px;
+}
+.choose-qual h4{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    padding: 0px 0px 20px;
 }
 /* <----------------------- brista blend end -----------------------> */
 
