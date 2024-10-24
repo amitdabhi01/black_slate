@@ -71,20 +71,24 @@
 }
 
 .mainbox1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 30%;
+    position: relative;
 }
 .box1{
     /* border: 1px solid black; */
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    height: 410px;
 }
 .smallboxes{
     /* border: 1px solid red; */
     margin: 15px 0px 0px;
     display: flex;
+    position: absolute;
+    bottom: 0px;
 }
 .smallboxes1{
     /* border: 1px solid blue; */
@@ -92,6 +96,8 @@
     box-shadow: 0 2px 9px RGBA(0, 0, 0, 0.11);
     opacity: 0.5;
     width: fit-content;
+    
+
 }
 .smallboxes2{
     /* border: 1px solid blue; */
@@ -154,6 +160,7 @@
     background-color: transparent;
     border: 1px solid white;
     color: white;
+    margin-left: 10px;
 }
 .brista-blend2 p{
     font-size: 14px;
@@ -169,6 +176,7 @@
 .icon{
     border: 1px solid black;
     display: flex;
+    font-size: 25px;
 }
 /* <----------------------- brista blend end -----------------------> */
 

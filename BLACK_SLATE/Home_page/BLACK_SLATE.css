@@ -475,6 +475,9 @@
     margin-bottom: 16px;
     display: inline-block;
 } 
+.box2 a:hover{
+    color: #2bb8a9;
+}
 .prize{
     width: 100%;
     /* border: 1px solid red; */
