@@ -320,6 +320,106 @@
 
 
 
+/* <----------------------- rating and review start -----------------------> */
+.container{
+    border: 1px solid black !important;
+    margin-bottom: 50px;
+}
+.rating-result{
+    /* border: 1px solid black; */
+    line-height: 1.8;
+}
+.rating-result h1{
+    color: #00376e;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+}
+.star{
+    font-size: 20px;
+}
+.star :last-child{
+    color: gray;
+}
+.rating-result p{
+    color: #5981a9;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+.review-container{
+    padding-block-start: 16px;
+    padding-block-end: 12px;
+}
+.review-container h1{
+    color: #00376e;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+}
+.review-list{
+    line-height: 1.8;
+    /* border: 1px solid black; */
+}
+.list-item{
+    /* margin-bottom: 10px; */
+    margin-bottom: 50px !important;
+}
+.list-item h6{
+    font-size: 14px;
+    color: #00376e;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    margin-right: 10px;
+    display: inline;
+}
+.list-item span{
+    font-size: 14px;
+    color: #5981a9;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.list-item p{
+    font-size: 14px;
+    color:#5981a9;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.87);
+}
+.login{
+    /* border: 1px solid black; */
+}
+.login a{
+    color: #4cb5ab;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+.login a:hover{
+    color: #38978e;
+}
+/* <----------------------- rating and review end -----------------------> */
+
+
+
+
+/* <----------------------- recommnded products start -----------------------> */
+.container{
+    border: 1px solid black !important;
+}
+.title h1{
+    color: #00376e;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+}
+/* <----------------------- recommnded products end -----------------------> */
+
+
+
+
 
 /* <----------------------- footer start -----------------------> */
 .container0 {
