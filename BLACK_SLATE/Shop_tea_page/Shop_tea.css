@@ -87,9 +87,6 @@
     justify-content: center;
     flex-direction: column;
 }
-.box{
-    /* border: 1px solid white; */
-}
 .box h1{
     padding: 0px 0px 15px;
     color: white;
