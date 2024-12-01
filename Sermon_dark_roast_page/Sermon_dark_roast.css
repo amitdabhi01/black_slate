@@ -273,6 +273,57 @@
 
 
 
+/* <----------------------- product detail start -----------------------> */
+.container2{
+    max-width: 1320px;
+    margin: auto;
+    /* border: 1px solid black ; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0;
+    margin-bottom: 70px;
+}
+.product-det{
+    background-color: #f4fafa;
+    display: flex;
+}
+.btn1 button{
+    width: 160px;
+    height: 70px;
+    background-color: transparent;
+    font-size: 18px;
+    color: #00376e;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    border: none;
+    border-bottom: 5px solid #4cb5ab;
+}
+.btn2 button{
+    width: 160px;
+    height: 70px;
+    background-color: transparent;
+    font-size: 18px;
+    color: #00376e;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    border: none;
+    border-right: 1px solid rgba(58, 58, 58, 0.603);
+    border-left: 1px solid  rgba(58, 58, 58, 0.603);
+}
+.btn2 button:hover{
+    border-bottom: 5px solid #4cb5ab;
+}
+.details{
+    padding: 30px;
+}
+.details p{
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    line-height: 1.8;
+    color: #5981a9;
+}
+/* <----------------------- product detail end -----------------------> */
+
 
 
 
